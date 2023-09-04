@@ -1,0 +1,183 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.header{
+    display: flex;
+    background-color: #dafbf0;
+    padding: 5px;
+    justify-content: space-between;
+    cursor: pointer;
+    position: relative;
+    box-shadow: 0px 0px 5px 0px black;
+}
+
+.menubar{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    padding-right: 10%;
+    gap: 40px;
+}
+
+
+.menubar h3:hover{
+    color: rgb(49, 255, 241);
+    transition: .4s;
+}
+
+.main{
+    background-color: #dafbf0;
+    display: flex;
+    justify-content: space-between;
+    padding: 35px;
+}
+.text{
+    position: relative;
+    left: 50px;
+}
+.text p{
+    font-weight: bold;
+}
+.text h1{
+    font-size:45px;
+}
+
+.text button{
+    background-color: black;
+    color: white;
+    padding: 10px 25px;
+}
+
+.text span{
+    font-weight:lighter;
+    color: grey;
+}
+.about{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 20px;
+}
+.boxes{
+    display: flex;
+    justify-content: space-around
+}
+.box{
+    border: 2px solid black;
+    margin: 10px;
+   
+    width: 250px;
+    padding: 15px;
+}
+.box h3{
+    margin-top: 10px;
+}
+.box p{
+    margin-top: 5px;
+    font-weight:lighter;
+}
+
+.products{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: #dafbf0;
+    margin-top: 10px;
+    padding-bottom: 20px;
+}
+.products h1{
+    background-color: white;
+}
+
+.product_images {
+    display: flex;
+    justify-content: space-around;
+}
+.product{
+    position: relative;
+    bottom:55px;
+}
+.flowers{
+    padding: 10px;
+    margin: 10px;
+}
+.align_flowers{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    text-align: center;
+}
+
+.reviews{
+    background-color: #dafbf0;
+    display: flex;
+    justify-content: center;
+    margin-top: 65px; 
+    padding: 20px;
+}
+
+.review_img{ 
+    position: relative;   
+    bottom: 50px;
+    right: 22%;
+}
+
+.review{
+    position: relative;
+    top: 75px;
+    right: 200px;
+}
+
+.review h1{
+   font-weight:900;
+   font-size: 2.2rem;
+}
+
+#para{
+   font-size: 1rem;
+   
+   font-family: 'Poppins', sans-serif; 
+    
+}
+.review span{
+    color: yellow;
+}
+
+.newsletter{
+   text-align: center;
+   margin-top: 3em;
+}
+
+.newsletter h1{
+    font-size: 2.0rem;
+}
+.mail_input{
+    display: block;
+    width: 100em;
+    height: 3em;
+    max-width: 80%;
+    margin: 2em auto;
+}
+
+.newsletter button{
+    background-color: black;
+    color: white;
+    padding: 10px 30px;
+    width: 180px;
+
+}
+
+.footer{
+    background-color: #dafbf0;
+    padding: 30px;
+}
+#copyright{
+    color: #7e8088;;
+}
